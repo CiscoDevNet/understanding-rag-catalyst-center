@@ -4,7 +4,6 @@ Author: flopach 2024
 """
 import json
 import glob
-import fitz
 from bs4 import BeautifulSoup
 import requests
 import logging
