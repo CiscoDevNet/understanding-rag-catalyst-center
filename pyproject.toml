@@ -1,0 +1,24 @@
+[tool.poetry]
+package-mode = false
+name = "understanding-rag-catalyst-center"
+version = "0.1.0"
+description = ""
+authors = ["flopach <flpachin@cisco.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ollama = "^0.1.9"
+requests = "^2.32.2"
+chromadb = "^0.5.0"
+chainlit = "^1.0.505"
+beautifulsoup4 = "^4.12.3"
+jupyterlab = "^4.2.1"
+sentence-transformers = "^2.7.0"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,12 +1,23 @@
-# devnet-template
-This provides a template repository for creating or importing repos in the CiscoDevNet organization on GitHub.com. 
+# Understanding RAG with Catalyst Center
 
-Please use this template as a guide to creating a repo that encourages contributions and shows thoughtful maintenance strategies.  
+## Learning Lab
 
-The `CODE_OF_CONDUCT.md` reflects our standards for interaction. 
+Visit: [Understanding RAG with Catalyst Center](https://developer.cisco.com)
 
-The `CONTRIBUTING.md` file instructs new contributors on how to communicate with the project maintainers, report issues, provide pull requests, reviewing contributions, and how to version control releases.
+## DNAC Sandbox URL + Credentials
 
-The `LICENSE` file should contain the license you intend for the source code in the repo. 
+* BASE_URL = 'https://sandboxdnac.cisco.com'
+* USERNAME = 'devnetuser'
+* PASSWORD = 'Cisco123!'
 
-The `SECURITY.md` file describes security policies and procedures including reporting a security-related bug and the policy on disclosure. 
+## Authors
+
+* **Flo Pachinger** - *Initial work* - [flopach](https://github.com/flopach)
+
+## License
+
+This project is licensed under the Cisco Sample Code License 1.1 - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Further Links
+
+* [Cisco DevNet Website](https://developer.cisco.com)
