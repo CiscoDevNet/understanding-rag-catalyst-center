@@ -32,30 +32,27 @@ LLM = LLMOllama(
 
 @cl.on_chat_start
 def on_chat_start():
+  """
+  Hook to react to the user websocket connection event.
+  """
   log.info("A new chat session has started!")
 
 @cl.on_message
 async def main(message: cl.Message):
-  """
-  This function is called every time a user inputs a message in the UI.
-  It sends back an intermediate response from the tool, followed by the final answer.
+    """
+    Chainlit Main function
+    This function is called every time a user inputs a message in the UI
+    """
+    answer = await cl.make_async(sync_func)(message.content)
+    await cl.Message(
+        content=answer,
+    ).send()
 
-  Args:
-     message: The user's message.
-  """
+def sync_func(query_string):
+    """
+    Synchronous function for querying the LLM
 
-  # trick for loader: https://docs.chainlit.io/concepts/message
-  msg = cl.Message(content="")
-  await msg.send()
-
-  msg.content = await ask_llm(message.content)
-
-  await msg.update()
-
-@cl.step
-async def ask_llm(query_string):
-  """
-  Chainlit Step function: ask the LLM + return the result
-  """
-  response = LLM.ask_llm_rag(query_string)
-  return response
+    For long running synchronous tasks without blocking the event loop
+    https://docs.chainlit.io/api-reference/make-async
+    """
+    return LLM.ask_llm_rag(query_string)
