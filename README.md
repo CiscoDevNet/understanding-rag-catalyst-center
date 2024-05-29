@@ -9,7 +9,7 @@ Visit: [Understanding RAG with Catalyst Center](https://developer.cisco.com)
 You can try out the generated code with the Catalyst-Center-Always-On Sandbox!
 
 * BASE_URL = 'https://sandboxdnac.cisco.com'
-* For USERNAME and PASSWORD check [Catalyst-Center-Always-On Sandbox Instructions]([https://developer.cisco.com](https://devnetsandbox.cisco.com/DevNet/catalog/Catalyst-Center-Always-On#instructions))
+* For USERNAME and PASSWORD check [Catalyst-Center-Always-On Sandbox Instructions](https://devnetsandbox.cisco.com/DevNet/catalog/Catalyst-Center-Always-On#instructions)
 
 ## Authors
 
