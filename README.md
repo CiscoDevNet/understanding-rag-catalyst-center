@@ -4,11 +4,12 @@
 
 Visit: [Understanding RAG with Catalyst Center](https://developer.cisco.com)
 
-## DNAC Sandbox URL + Credentials
+## DevNet Sandbox Information
+
+You can try out the generated code with the Catalyst-Center-Always-On Sandbox!
 
 * BASE_URL = 'https://sandboxdnac.cisco.com'
-* USERNAME = 'devnetuser'
-* PASSWORD = 'Cisco123!'
+* For USERNAME and PASSWORD check [Catalyst-Center-Always-On Sandbox Instructions](https://devnetsandbox.cisco.com/DevNet/catalog/Catalyst-Center-Always-On#instructions)
 
 ## Authors
 
