@@ -3,7 +3,7 @@ package-mode = false
 name = "understanding-rag-catalyst-center"
 version = "0.1.0"
 description = ""
-authors = ["flopach <florian.pachinger@gmail.com>"]
+authors = ["flopach"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
