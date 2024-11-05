@@ -8,7 +8,7 @@ import logging
 log = logging.getLogger("applogger")
 
 class LLMOllama:
-  def __init__(self, database, model = "llama3"):
+  def __init__(self, database, model = "llama3.1"):
     self.database = database
     self.model = model
 

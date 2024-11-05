@@ -20,7 +20,7 @@ vectordb = VectorDB(
 
 LLM = LLMOllama(
   database=vectordb,
-  model="llama3"
+  model="llama3.1"
 )
 
 # DataHandler is not needed

@@ -1,8 +1,8 @@
 # Understanding RAG with Catalyst Center
 
-## Learning Lab
+## Installation & Usage
 
-Visit: [Understanding RAG with Catalyst Center](https://developer.cisco.com)
+Start the DevNet Learning Lab, a step by step guide here: [Understanding RAG with Catalyst Center](https://developer.cisco.com/learning/labs/api-code-assistant-catalyst-center/)
 
 ## DevNet Sandbox Information
 
