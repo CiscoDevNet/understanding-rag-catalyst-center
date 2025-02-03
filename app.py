@@ -1,6 +1,6 @@
 """
 Cisco Sample Code License 1.1
-Author: flopach 2024
+Author: flopach 2025
 """
 from TalkToOllama import LLMOllama
 from TalkToDatabase import VectorDB

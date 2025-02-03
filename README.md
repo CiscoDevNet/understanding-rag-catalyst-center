@@ -1,5 +1,7 @@
 # Understanding RAG with Catalyst Center
 
+**Updated to Python 3.12 and Chainlit 2.x in 02/2025**
+
 ## Installation & Usage
 
 Start the DevNet Learning Lab, a step by step guide here: [Understanding RAG with Catalyst Center](https://developer.cisco.com/learning/labs/api-code-assistant-catalyst-center/)
